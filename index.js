@@ -6,13 +6,13 @@ function happyHolidays()
 
 function happyHolidaysTo(name)
 {
-  return 'Happy holidays, ${name}!'
+  return `Happy holidays, ${name}!`
 }
 function happyHoldiayTo(holiday,name)
 {
-  return 'Happu ${holiday}, ${name}!'
+  return `Happy ${holiday}, ${name}!`
 }
 function holidayCountdown(holiday,days)
 {
-  return 'It\'s ${days} until ${holiday}'
+  return `It\'s ${days} until ${holiday}!`
 }
